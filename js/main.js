@@ -1,6 +1,6 @@
 $('.square').click(function(){
     var quadratoClicked = $(this);
-    var numeroNelQuadrato = $(this).children('span');
+    var numeroNelQuadrato = $(this).children('p');
     $.ajax({
         url: 'https://flynn.boolean.careers/exercises/api/random/int',
         method: 'GET',
