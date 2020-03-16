@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 900px;
+    height: 900px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    float: right;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
