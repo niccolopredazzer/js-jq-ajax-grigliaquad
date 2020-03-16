@@ -7,9 +7,9 @@ $('.square').click(function(){
         success: function (data) {
             var numeroRandom = data.response;
             if (numeroRandom <= 5) {
-                quadratoClicked.addClass('yellow').remove('green');
+                quadratoClicked.addClass('yellow').removeClass('green');
             } else {
-                quadratoClicked.addClass('green').remove('yellow');
+                quadratoClicked.addClass('green').removeClass('yellow');
             };
             numeroNelQuadrato.text(numeroRandom);
             console.log(numeroRandom);
